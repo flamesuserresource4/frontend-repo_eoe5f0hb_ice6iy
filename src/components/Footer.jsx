@@ -3,7 +3,7 @@ import { ShieldCheck, WifiOff, Github } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="bg-[#0B1220] text-white">
-      <div className="mx-auto max-w-6xl px-6 py-10">
+      <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
             <h4 className="text-lg font-semibold">Aarogya-Setu</h4>
@@ -26,7 +26,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 flex items-center justify-between border-t border-white/10 pt-6 text-xs text-white/60">
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-t border-white/10 pt-6 text-xs text-white/60">
           <p>© {new Date().getFullYear()} Aarogya-Setu. All rights reserved.</p>
           <a href="https://github.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-white">
             <Github className="h-4 w-4" />
